@@ -16,7 +16,6 @@ function getLevel2(n) {
   return natija;
 }
 
-
 // 5
 function getSingleArr(arr) {
   let result = [];
@@ -32,7 +31,6 @@ function getSingleArr(arr) {
   return result;
 }
 
-
 // 6
 function swapMinMax(arr) {
   let minIndex = arr.indexOf(Math.min(...arr));
@@ -46,10 +44,10 @@ function swapMinMax(arr) {
 }
 
 // 7
-function shiftRight(arr) {
-  let  = arr.pop();
-  arr.unshift(last);
-  return arr;
+const A = [1, 2, 3, 4, 5, 6, 7, 8];
+const result = [];
+for (let i = A.length - 1; i >= 0; i -= 2) {
+  result.push(A[i]);
 }
 
 // 1
